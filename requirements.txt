@@ -1,0 +1,25 @@
+# Chandra-OCR Scanner Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core OCR Engine
+chandra-ocr[vllm]==0.2.0
+
+# Deep Learning Framework
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+
+# Fast Inference Engine
+vllm>=0.2.0
+
+# Image Processing
+Pillow>=10.2.0
+
+# Data Science & Numerics
+numpy>=1.24.0
+
+# Visualization
+matplotlib>=3.7.0
+
+# Optional: For better compatibility
+beautifulsoup4>=4.14.0
